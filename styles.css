@@ -20,7 +20,10 @@
   padding: 0.5rem;
 }
 
-.personen-tabelle tbody tr:nth-child(2n),
+/* .personen-tabelle tbody tr:nth-child(odd), */
+/* .personen-tabelle tbody tr:nth-child(2n+1), */
+/* .personen-tabelle tbody tr:nth-child(2n), OR*/
+.personen-tabelle tbody tr:nth-child(even),
 .personen-tabelle thead tr {
   background-color: tomato;
 }
