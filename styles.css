@@ -6,4 +6,32 @@
   box-sizing: border-box;
 }
 
+.personen-tabelle {
+  /* border: 1px solid rgb(222, 222, 222); */
+  margin: 0 auto;
+  margin-top: 5rem;
 
+  border-collapse: collapse;
+}
+
+.personen-tabelle td,
+.personen-tabelle th {
+  border: 2px solid aqua;
+  padding: 0.5rem;
+}
+
+.personen-tabelle tbody tr:nth-child(2n),
+.personen-tabelle thead tr {
+  background-color: tomato;
+}
+
+/* .personen-tabelle thead tr {
+  background-color: tomato;
+} */
+
+/* .personen-tabelle tfoot tr:hover  */
+.personen-tabelle thead tr:hover,
+.personen-tabelle tbody tr:hover {
+  background-color: dodgerblue;
+  cursor: pointer;
+}
