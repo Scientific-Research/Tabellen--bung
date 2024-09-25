@@ -38,3 +38,11 @@
   background-color: dodgerblue;
   cursor: pointer;
 }
+
+/* > means direct child => Jannis used it here but i didn't use it here! without direct child works too!
+
+When we want to make the personen column in green color, when i hover on every row and not direct hover on the person column, I have to write the hover for tr and not th. because i want to say that, when i want to hover on the row, the person column turns green and not when i hover on the Personen column!*/
+.personen-tabelle tbody tr:hover th,
+.personen-tabelle thead tr:hover th.personen {
+  background-color: greenyellow;
+}
